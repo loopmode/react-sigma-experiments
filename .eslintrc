@@ -1,0 +1,83 @@
+{
+    "extends": [
+        "prettier",
+        "prettier/react"
+    ],
+    "parser": "babel-eslint",
+    "parserOptions":
+    {
+        "ecmaVersion": 6,
+        "ecmaFeatures":
+        {
+            "jsx": true,
+        },
+        "sourceType": "module"
+    },
+    "env":
+    {
+        "browser": true,
+        "node": true
+    },
+    "plugins": [
+        "react",
+        "import",
+        "prettier"
+    ],
+    "settings":
+    {
+        "import/resolver": "node"
+    },
+    "rules":
+    {
+        "comma-dangle": 0,
+        "comma-spacing": 1,
+        "constructor-super": 2,
+        "eol-last": 1,
+        "import/default": 2,
+        "import/export": 2,
+        "import/named": 2,
+        "import/namespace": 2,
+        "import/no-named-as-default": 0,
+        "import/no-unresolved": [2,
+        {
+            "commonjs": true,
+            "amd": true
+        }],
+        "jsx-quotes": 0,
+        "key-spacing": 1,
+        "new-cap": 0,
+        "no-confusing-arrow": 1,
+        "no-dupe-args": 2,
+        "no-dupe-class-members": 2,
+        "no-dupe-keys": 2,
+        "no-duplicate-case": 2,
+        "no-empty": 1,
+        "no-mixed-spaces-and-tabs": 1,
+        "no-multi-spaces": 0,
+        "no-this-before-super": 2,
+        "no-trailing-spaces": 1,
+        "no-undef": 2,
+        "no-underscore-dangle": 0,
+        "no-unused-vars": [1, { "ignoreRestSiblings": true }],
+        "no-use-before-define": 0,
+        "no-useless-constructor": 1,
+        "react/jsx-boolean-value": 1,
+        "react/jsx-no-duplicate-props": 2,
+        "react/jsx-no-literals": 0,
+        "react/jsx-no-undef": 2,
+        "react/jsx-uses-react": 1,
+        "react/jsx-uses-vars": 1,
+        "react/no-did-mount-set-state": 1,
+        "react/no-did-update-set-state": 1,
+        "react/no-multi-comp": 0,
+        "react/no-unknown-property": 1,
+        "react/prop-types": 2,
+        "react/react-in-jsx-scope": 1,
+        "react/jsx-no-target-blank": 0,
+        "react/self-closing-comp": 1,
+        "react/wrap-multilines": 0,
+        "semi": 1,
+        "semi-spacing": 1,
+        "strict": [2, "global"]
+    }
+}
